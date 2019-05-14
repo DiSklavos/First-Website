@@ -1,0 +1,136 @@
+body {
+    background-color:#f4f4f4;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height: 1.6em;
+    margin:0;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+#mainHeader{
+    background-color: coral;
+    color:#fff;
+
+}
+#navbar{
+    background-color:#333;
+    color:#fff;
+    
+}
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+#navbar  li{
+    display:inline;
+}
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+#showcase{
+    background-image:url('images/showcase.jpg');
+    background-position:center right ;
+    min-height:300px;
+    margin-bottom:30px;
+    text-align:center;
+    line-height:1.6em;
+}
+#showcase h1{
+    color:#fff;
+    font-size:50px;
+    padding-top:30px;
+    line-height:1.6em;
+    padding-top:30px;
+}
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing:border-box;
+}  
+
+#sidebar{
+    float:right;
+    width:30%;
+    box-sizing:border-box;
+    padding:10px;
+    color:#fff;
+    background-color:#333;
+}  
+#mainfooter{
+    background: #333333;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float:none;
+    }
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}
+.button{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    text-decoration:none;
+}
+.fixMe{
+    position:fixed;
+    top:50%;
+    font-size:25px;
+    background-color:#fdf497;
+}
+.instagram{ 
+    background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    }
+
+/**
+.fab.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+*/
+.fixMe1{
+    position:fixed;
+    top:55.5%;
+    background-color:#3B5998;
+    font-size:25px;
+}
+.fixMe2{
+    position:fixed;
+    top:61%;
+    font-size:25px;
+    background-color: #08a0e9;
+}
+
+a.button:hover{
+	-ms-transform: scale(2,2); /* IE 9 */
+  -webkit-transform: scale(2,2); /* Safari */
+  transform: scale(2,2); /* Standard syntax */
+}
+#signup {
+    background-color:#333;
+    color:#fff;
+    opacity:1;
+}
